@@ -1,0 +1,72 @@
+.title {
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    display: block;
+}
+
+.dailyItem {
+    background-color: #333333;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+.dailyItem label {
+    cursor: pointer;
+    color: white;
+}
+
+.iconSmall {
+    width: 40px;
+}
+
+.day {
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.description {
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.temp {
+    color: #999999 !important;
+}
+
+.dailyDetailsGrid {
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    row-gap: 0;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+    background-color: #212121;
+    border-radius: 15px;
+}
+
+.dailyDetailsGridItem {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.dailyDetailsGridItem label:first-child {
+    color: white;
+}
+
+.dailyDetailsGridItem label:last-child {
+    color: #757575;
+}

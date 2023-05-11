@@ -1,0 +1,31 @@
+.favContainer {
+    display: inline-flex;
+    justify-content: center;
+    width: 40%;
+    margin: 0 1% 5% 5%;
+}
+
+.favorites {
+    width: 200px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: white;
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.favoritesList {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.favoritesListItem {
+    margin: 10px;
+    cursor: pointer;
+}
